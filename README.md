@@ -1,4 +1,4 @@
-# React Webpack Template &middot; ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg)
+# React Webpack Template
 This project was created in order that it can be used for different projects, personal, business, you can give it the use you want.
 ## Available Scripts
 To start clone the project and use:
@@ -117,6 +117,3 @@ If you have knowledge of webpack you can modify the exit route to your liking
 
 ## About
 As explained above, this project has many purposes and if you want to use them in your projects, do not hesitate to do so.
-
-## License
-React Webpack Template is [ISC licensed](./LICENSE)

@@ -71,10 +71,11 @@ header:before
         display: flex
         flex-direction: column
         justify-content: center
+        overflow: hidden
 
     .name
         font-family: Shlop
-        font-size: 25px
+        font-size: 30px
         color: #82BF45
     
     .specie
@@ -98,14 +99,64 @@ header:before
         font-size: 10px
         margin: 3px 0
 
+@media screen and (max-width: 1588px)
+    .container
+        width: 85%
+    .box
+        .character
+            .name
+                font-size: 35px
 
+@media screen and (max-width: 1450px)
+    .container
+        width: 90%
+    
+@media screen and (max-width: 1230px)
+    .container
+        width: 95%
 
+@media screen and (max-width: 1080px)
+    .box
+        width: 45%
 
+@media screen and (max-width: 860px)
+    .container
+        width: 80%
+    .box
+        width: 100%
+    .title
+        font-size: 4rem
 
+@media screen and (max-width: 636px)
+    .title
+        font-size: 4rem
+        padding: 5px
 
+@media screen and (max-width: 534px)
+    .text
+        font-size: 15px
+    .container
+        width: 90%
 
+@media screen and (max-width: 444px)
+    .container
+        width: 95%
+    .title
+        padding: 4px
 
+@media screen and (max-width: 416px)
+    .container
+        width: 100%
+    .title
+        padding: 3px
 
+@media screen and (max-width: 392px)
+    .title
+        font-size: 3rem
+
+@media screen and (max-width: 378px)
+    .text
+        font-size: 13px
 
 
 
